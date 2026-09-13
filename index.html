@@ -479,11 +479,6 @@ footer a:hover { color: var(--accent); }
 
 /* ---------- responsive ---------- */
 
-/* wide enough for all four details on one balanced row */
-@media (min-width: 800px) {
-  .contact { grid-template-columns: 1.35fr 1fr .85fr 1.1fr; }
-}
-
 @media (max-width: 640px) {
   body { font-size: 15.5px; }
   .wrap { padding-left: 18px; padding-right: 18px; }
@@ -543,7 +538,7 @@ footer a:hover { color: var(--accent); }
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
       <a href="#news">News</a>
-      <a href="#contact" class="nav__hide-xs">Contact</a>
+      <a href="mailto:hatef.otroshi@idiap.ch" class="nav__hide-xs">Contact</a>
     </nav>
   </div>
 </header>
@@ -573,7 +568,7 @@ footer a:hover { color: var(--accent); }
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21h-4V9z"/></svg>
           LinkedIn
         </a>
-        <a class="btn" href="#contact">
+        <a class="btn" href="mailto:hatef.otroshi@idiap.ch">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6.5 9 6 9-6"/></svg>
           Contact
         </a>
@@ -719,19 +714,7 @@ footer a:hover { color: var(--accent); }
     <dl class="contact">
       <div>
         <dt>Email</dt>
-        <dd>hatef.otroshi<span aria-hidden="true">[at]</span><span class="sr-only">@</span>idiap.ch</dd>
-      </div>
-      <div>
-        <dt>Phone</dt>
-        <dd><a href="tel:+41277217451">+41 27 721 74 51</a></dd>
-      </div>
-      <div>
-        <dt>Office</dt>
-        <dd>CP207.1-1</dd>
-      </div>
-      <div>
-        <dt>Contact form</dt>
-        <dd><a href="https://www.idiap.ch/en/about/people/840/@@person-contact-form">Idiap contact form</a></dd>
+        <dd><a href="mailto:hatef.otroshi@idiap.ch">hatef.otroshi@idiap.ch</a></dd>
       </div>
     </dl>
   </section>
@@ -740,7 +723,6 @@ footer a:hover { color: var(--accent); }
 <footer>
   <div class="wrap">
     <p>&copy; Hatef Otroshi Shahreza 2020&ndash;<span id="spanYear"></span></p>
-    <p><a href="https://www.idiap.ch/~hotroshi/">Idiap page</a></p>
   </div>
 </footer>
 
